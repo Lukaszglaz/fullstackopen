@@ -1,1 +1,0 @@
-const alalalaa = addEventListener("sdsda");
