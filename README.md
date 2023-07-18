@@ -22,7 +22,7 @@ The Full Stack Open course includes the following modules:
 #### Introduction to TypeScript - Getting started with TypeScript and the benefits of using it in projects.
 #### Continuing with TypeScript - Expanding knowledge of TypeScript and using it in React and Node.js applications.
 
-##Getting Started
+## Getting Started
 To begin the Full Stack Open course, visit the [official course website](https://fullstackopen.com/en/) where you can find detailed instructions on registration and accessing the course materials. The course is available for free and can be started at any time.
 
 
