@@ -1,7 +1,7 @@
 ## Full Stack Open
 
 ### Full Stack Open 
-is a free online course offered by the University of Helsinki. This course provides comprehensive knowledge and skills for developing full-stack web applications, covering both the backend and frontend aspects.
+Is a free online course offered by the University of Helsinki. This course provides comprehensive knowledge and skills for developing full-stack web applications, covering both the backend and frontend aspects.
 
 ## Description
 Full Stack Open consists of various modules that cover all the important aspects of web application development. The course focuses on using modern tools and technologies such as React, Redux, Node.js, MongoDB, and TypeScript to provide practical and up-to-date skills required for working as a full-stack developer.
