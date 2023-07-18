@@ -1,4 +1,4 @@
-# Full Stack Open
+# fullstackopen
 
 ### Full Stack Open 
 is a free online course offered by the University of Helsinki. This course provides comprehensive knowledge and skills for developing full-stack web applications, covering both the backend and frontend aspects.
