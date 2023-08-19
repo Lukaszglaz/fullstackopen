@@ -9,9 +9,12 @@ const Part = ({ part, exercises }) => {
 };
 
 const Content = ({ parts }) => {
+  // Wybierz trzy pierwsze elementy z tablicy parts
+  const selectedParts = parts.slice(0, 3);
+
   return (
     <div>
-      {parts.map((part) => (
+      {selectedParts.map((part) => (
         <Part key={part.name} part={part.name} exercises={part.exercises} />
       ))}
     </div>
