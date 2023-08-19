@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../courseinfo/components/Header';
-import Content from '../courseinfo/components/Content';
-import Total from '../courseinfo/components/Total';
+import Header from './courseinfo/components/Header';
+import Content from './courseinfo/components/Content';
+import Total from './courseinfo/components/Total';
 
 const App = () => {
   const course = 'Half Stack application development';
