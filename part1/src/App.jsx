@@ -1,34 +1,35 @@
+import { useState } from 'react';
+
 const App = () => {
-  const course = {
-    name: 'Half Stack application development',
-    parts: [
-      {
-        name: 'Fundamentals of React',
-        exercises: 10,
-      },
-      {
-        name: 'Using props to pass data',
-        exercises: 7,
-      },
-      {
-        name: 'State of a component',
-        exercises: 14,
-      },
-    ],
+  // save clicks of each button to its own state
+  const [good, setGood] = useState(0);
+  const [neutral, setNeutral] = useState(0);
+  const [bad, setBad] = useState(0);
+
+  const setGoodClick = () => {
+    setGood(good + 1);
+  };
+
+  const setNeutralClick = () => {
+    setNeutral(neutral + 1);
+  };
+
+  const setBadClick = () => {
+    setBad(bad + 1);
   };
 
   return (
     <div>
-      <h1>{course.name}</h1>
-      {course.parts.map((part) => (
-        <p key={part.name}>
-          {part.name} - {part.exercises} exercises
-        </p>
-      ))}
-      <p>
-        Total number of exercises:{' '}
-        {course.parts.reduce((total, part) => total + part.exercises, 0)}
-      </p>
+      <h1>Give FeedBack:</h1>
+
+      <button onClick={setGoodClick}>good opinion</button>
+      <button onClick={setNeutralClick}>neutral opinion</button>
+      <button onClick={setBadClick}>bad opinion</button>
+
+      <h2>Statistic:</h2>
+      <p>Good opinion: {good}</p>
+      <p>Neutral opinion: {neutral}</p>
+      <p>Bad opinion: {bad}</p>
     </div>
   );
 };
